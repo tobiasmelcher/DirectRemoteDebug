@@ -13,14 +13,16 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.debug.core,
  org.eclipse.rse.core,
  org.eclipse.rse.services,
- org.eclipse.cdt.launch;bundle-version="7.2.0",
+ org.eclipse.cdt.launch,
  org.eclipse.cdt.dsf.gdb,
- org.eclipse.cdt.debug.mi.core,
- org.eclipse.cdt.dsf.gdb.ui;bundle-version="2.4.0",
+ org.eclipse.cdt.dsf.gdb.ui,
  org.eclipse.rse.files.ui,
  org.eclipse.rse.subsystems.files.core,
  org.eclipse.rse.ui,
- org.eclipse.debug.ui;bundle-version="3.10.2"
+ org.eclipse.debug.ui,
+ org.eclipse.cdt.ui,
+ org.eclipse.jface.text,
+ org.eclipse.ui.workbench.texteditor
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Eclipse-AutoStart: true
 Bundle-Vendor: %Bundle-Vendor

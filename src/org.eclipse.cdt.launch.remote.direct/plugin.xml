@@ -65,5 +65,19 @@
 	<extension point="org.eclipse.help.toc">
 		<toc file="toc.xml"/>
 	</extension>
+ <extension
+       point="org.eclipse.ui.views">
+    <category
+          id="org.eclipse.cdt.launch.remote.direct"
+          name="Sample Category">
+    </category>
+    <view
+          category="org.eclipse.cdt.launch.remote.direct"
+          class="org.eclipse.cdt.launch.remote.direct.VariableView"
+          icon="icons/sample.gif"
+          id="org.eclipse.cdt.launch.remote.direct.VariableView"
+          name="VariableView">
+    </view>
+ </extension>
 
 </plugin>
