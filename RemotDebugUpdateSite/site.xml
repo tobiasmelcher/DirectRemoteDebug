@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/RemoteDebugFeature_1.0.0.201711041637.jar" id="RemoteDebugFeature" version="1.0.0.201711041637"/>
+   <feature url="features/RemoteDebugFeature_1.0.0.201711041700.jar" id="RemoteDebugFeature" version="1.0.0.201711041700"/>
 </site>
